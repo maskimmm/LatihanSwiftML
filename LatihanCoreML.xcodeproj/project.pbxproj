@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA6279172A75602E00CF678E /* LatihanCoreMLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6279162A75602E00CF678E /* LatihanCoreMLApp.swift */; };
+		AA6279192A75602E00CF678E /* TextBasedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6279182A75602E00CF678E /* TextBasedView.swift */; };
+		AA62791B2A75602F00CF678E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA62791A2A75602F00CF678E /* Assets.xcassets */; };
+		AA62791F2A75602F00CF678E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA62791E2A75602F00CF678E /* Preview Assets.xcassets */; };
+		AA6279262A75606B00CF678E /* CovidModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AA6279252A75606B00CF678E /* CovidModel.mlmodel */; };
+		AA6279282A75609900CF678E /* CovidPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6279272A75609900CF678E /* CovidPrediction.swift */; };
+		AAA5D9592A7CEF5D00D2351B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5D9582A7CEF5D00D2351B /* ContentView.swift */; };
+		AAA5D9622A7D39A300D2351B /* TextBasedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5D9612A7D39A300D2351B /* TextBasedViewModel.swift */; };
+		AAA5D9642A7D3A2B00D2351B /* Symptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5D9632A7D3A2B00D2351B /* Symptom.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA6279132A75602E00CF678E /* LatihanCoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LatihanCoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6279162A75602E00CF678E /* LatihanCoreMLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatihanCoreMLApp.swift; sourceTree = "<group>"; };
+		AA6279182A75602E00CF678E /* TextBasedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasedView.swift; sourceTree = "<group>"; };
+		AA62791A2A75602F00CF678E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA62791C2A75602F00CF678E /* LatihanCoreML.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LatihanCoreML.entitlements; sourceTree = "<group>"; };
+		AA62791E2A75602F00CF678E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA6279252A75606B00CF678E /* CovidModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CovidModel.mlmodel; sourceTree = "<group>"; };
+		AA6279272A75609900CF678E /* CovidPrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidPrediction.swift; sourceTree = "<group>"; };
+		AAA5D9582A7CEF5D00D2351B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAA5D9612A7D39A300D2351B /* TextBasedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasedViewModel.swift; sourceTree = "<group>"; };
+		AAA5D9632A7D3A2B00D2351B /* Symptom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6279102A75602E00CF678E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA62790A2A75602E00CF678E = {
+			isa = PBXGroup;
+			children = (
+				AA6279152A75602E00CF678E /* LatihanCoreML */,
+				AA6279142A75602E00CF678E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA6279142A75602E00CF678E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6279132A75602E00CF678E /* LatihanCoreML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA6279152A75602E00CF678E /* LatihanCoreML */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5D95E2A7D393400D2351B /* Models */,
+				AAA5D95F2A7D393E00D2351B /* Views */,
+				AAA5D9602A7D394700D2351B /* ViewModels */,
+				AAA5D9552A7CEEB700D2351B /* Helpers */,
+				AA6279162A75602E00CF678E /* LatihanCoreMLApp.swift */,
+				AAA5D9582A7CEF5D00D2351B /* ContentView.swift */,
+				AA62791A2A75602F00CF678E /* Assets.xcassets */,
+				AA62791C2A75602F00CF678E /* LatihanCoreML.entitlements */,
+				AA62791D2A75602F00CF678E /* Preview Content */,
+			);
+			path = LatihanCoreML;
+			sourceTree = "<group>";
+		};
+		AA62791D2A75602F00CF678E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA62791E2A75602F00CF678E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAA5D9552A7CEEB700D2351B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5D9562A7CEEC600D2351B /* CovidPrediction */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AAA5D9562A7CEEC600D2351B /* CovidPrediction */ = {
+			isa = PBXGroup;
+			children = (
+				AA6279272A75609900CF678E /* CovidPrediction.swift */,
+				AA6279252A75606B00CF678E /* CovidModel.mlmodel */,
+			);
+			path = CovidPrediction;
+			sourceTree = "<group>";
+		};
+		AAA5D95E2A7D393400D2351B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5D9632A7D3A2B00D2351B /* Symptom.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAA5D95F2A7D393E00D2351B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA6279182A75602E00CF678E /* TextBasedView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAA5D9602A7D394700D2351B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5D9612A7D39A300D2351B /* TextBasedViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA6279122A75602E00CF678E /* LatihanCoreML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6279222A75602F00CF678E /* Build configuration list for PBXNativeTarget "LatihanCoreML" */;
+			buildPhases = (
+				AA62790F2A75602E00CF678E /* Sources */,
+				AA6279102A75602E00CF678E /* Frameworks */,
+				AA6279112A75602E00CF678E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LatihanCoreML;
+			productName = LatihanCoreML;
+			productReference = AA6279132A75602E00CF678E /* LatihanCoreML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA62790B2A75602E00CF678E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AA6279122A75602E00CF678E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AA62790E2A75602E00CF678E /* Build configuration list for PBXProject "LatihanCoreML" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA62790A2A75602E00CF678E;
+			productRefGroup = AA6279142A75602E00CF678E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA6279122A75602E00CF678E /* LatihanCoreML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA6279112A75602E00CF678E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA62791F2A75602F00CF678E /* Preview Assets.xcassets in Resources */,
+				AA62791B2A75602F00CF678E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA62790F2A75602E00CF678E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6279192A75602E00CF678E /* TextBasedView.swift in Sources */,
+				AAA5D9642A7D3A2B00D2351B /* Symptom.swift in Sources */,
+				AAA5D9622A7D39A300D2351B /* TextBasedViewModel.swift in Sources */,
+				AAA5D9592A7CEF5D00D2351B /* ContentView.swift in Sources */,
+				AA6279262A75606B00CF678E /* CovidModel.mlmodel in Sources */,
+				AA6279282A75609900CF678E /* CovidPrediction.swift in Sources */,
+				AA6279172A75602E00CF678E /* LatihanCoreMLApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA6279202A75602F00CF678E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA6279212A75602F00CF678E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AA6279232A75602F00CF678E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LatihanCoreML/LatihanCoreML.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LatihanCoreML/Preview Content\"";
+				DEVELOPMENT_TEAM = RC47G294JN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maskimmm.LatihanCoreML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA6279242A75602F00CF678E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LatihanCoreML/LatihanCoreML.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LatihanCoreML/Preview Content\"";
+				DEVELOPMENT_TEAM = RC47G294JN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maskimmm.LatihanCoreML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA62790E2A75602E00CF678E /* Build configuration list for PBXProject "LatihanCoreML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6279202A75602F00CF678E /* Debug */,
+				AA6279212A75602F00CF678E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6279222A75602F00CF678E /* Build configuration list for PBXNativeTarget "LatihanCoreML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6279232A75602F00CF678E /* Debug */,
+				AA6279242A75602F00CF678E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA62790B2A75602E00CF678E /* Project object */;
+}
