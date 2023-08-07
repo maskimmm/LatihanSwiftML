@@ -37,6 +37,7 @@ class TextBasedViewModel: ObservableObject {
     
     func calculateResult(datas: [Int]){
         let covidModel = CovidPrediction()
+//        let covidModel = CovidCoreML()
         self.testResult = covidModel.predict(answer: datas)
         if self.testResult != nil {
             self.testResult = self.testResult! * 100
