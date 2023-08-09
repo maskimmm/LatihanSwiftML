@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA43E0882A7E6B4E00CC8B2F /* YOLOPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43E0862A7E6B4E00CC8B2F /* YOLOPrediction.swift */; };
+		AA43E0892A7E6B4E00CC8B2F /* YOLOModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AA43E0872A7E6B4E00CC8B2F /* YOLOModel.mlmodel */; };
+		AA43E08B2A7E6FC700CC8B2F /* CameraBasedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43E08A2A7E6FC700CC8B2F /* CameraBasedViewModel.swift */; };
+		AA43E08E2A7E709700CC8B2F /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43E08D2A7E709700CC8B2F /* CameraManager.swift */; };
+		AA43E0902A7FD45F00CC8B2F /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43E08F2A7FD45F00CC8B2F /* CameraError.swift */; };
+		AA43E0922A7FD81C00CC8B2F /* FrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43E0912A7FD81C00CC8B2F /* FrameManager.swift */; };
+		AA43E0952A7FD8B100CC8B2F /* CGImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43E0942A7FD8B100CC8B2F /* CGImageExtension.swift */; };
 		AA6279172A75602E00CF678E /* LatihanCoreMLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6279162A75602E00CF678E /* LatihanCoreMLApp.swift */; };
 		AA6279192A75602E00CF678E /* TextBasedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6279182A75602E00CF678E /* TextBasedView.swift */; };
 		AA62791B2A75602F00CF678E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA62791A2A75602F00CF678E /* Assets.xcassets */; };
@@ -16,9 +23,19 @@
 		AAA5D9592A7CEF5D00D2351B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5D9582A7CEF5D00D2351B /* ContentView.swift */; };
 		AAA5D9622A7D39A300D2351B /* TextBasedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5D9612A7D39A300D2351B /* TextBasedViewModel.swift */; };
 		AAA5D9642A7D3A2B00D2351B /* Symptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5D9632A7D3A2B00D2351B /* Symptom.swift */; };
+		AAA783462A7D4DD300E280AA /* ImageBasedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA783452A7D4DD300E280AA /* ImageBasedView.swift */; };
+		AAA783482A7D4DEB00E280AA /* CameraBasedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA783472A7D4DEB00E280AA /* CameraBasedView.swift */; };
+		AAA7834A2A7D4F1E00E280AA /* ImageBasedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA783492A7D4F1E00E280AA /* ImageBasedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA43E0862A7E6B4E00CC8B2F /* YOLOPrediction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YOLOPrediction.swift; sourceTree = "<group>"; };
+		AA43E0872A7E6B4E00CC8B2F /* YOLOModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOModel.mlmodel; sourceTree = "<group>"; };
+		AA43E08A2A7E6FC700CC8B2F /* CameraBasedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraBasedViewModel.swift; sourceTree = "<group>"; };
+		AA43E08D2A7E709700CC8B2F /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		AA43E08F2A7FD45F00CC8B2F /* CameraError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
+		AA43E0912A7FD81C00CC8B2F /* FrameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameManager.swift; sourceTree = "<group>"; };
+		AA43E0942A7FD8B100CC8B2F /* CGImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImageExtension.swift; sourceTree = "<group>"; };
 		AA6279132A75602E00CF678E /* LatihanCoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LatihanCoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6279162A75602E00CF678E /* LatihanCoreMLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatihanCoreMLApp.swift; sourceTree = "<group>"; };
 		AA6279182A75602E00CF678E /* TextBasedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasedView.swift; sourceTree = "<group>"; };
@@ -30,6 +47,9 @@
 		AAA5D9582A7CEF5D00D2351B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAA5D9612A7D39A300D2351B /* TextBasedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasedViewModel.swift; sourceTree = "<group>"; };
 		AAA5D9632A7D3A2B00D2351B /* Symptom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom.swift; sourceTree = "<group>"; };
+		AAA783452A7D4DD300E280AA /* ImageBasedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageBasedView.swift; sourceTree = "<group>"; };
+		AAA783472A7D4DEB00E280AA /* CameraBasedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraBasedView.swift; sourceTree = "<group>"; };
+		AAA783492A7D4F1E00E280AA /* ImageBasedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +63,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA43E0852A7E6B4E00CC8B2F /* YOLO */ = {
+			isa = PBXGroup;
+			children = (
+				AA43E0862A7E6B4E00CC8B2F /* YOLOPrediction.swift */,
+				AA43E0872A7E6B4E00CC8B2F /* YOLOModel.mlmodel */,
+			);
+			path = YOLO;
+			sourceTree = "<group>";
+		};
+		AA43E08C2A7E708600CC8B2F /* CameraManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA43E08D2A7E709700CC8B2F /* CameraManager.swift */,
+				AA43E08F2A7FD45F00CC8B2F /* CameraError.swift */,
+				AA43E0912A7FD81C00CC8B2F /* FrameManager.swift */,
+			);
+			path = CameraManager;
+			sourceTree = "<group>";
+		};
+		AA43E0932A7FD89E00CC8B2F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA43E0942A7FD8B100CC8B2F /* CGImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		AA62790A2A75602E00CF678E = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +109,7 @@
 		AA6279152A75602E00CF678E /* LatihanCoreML */ = {
 			isa = PBXGroup;
 			children = (
+				AA43E0932A7FD89E00CC8B2F /* Extensions */,
 				AAA5D95E2A7D393400D2351B /* Models */,
 				AAA5D95F2A7D393E00D2351B /* Views */,
 				AAA5D9602A7D394700D2351B /* ViewModels */,
@@ -86,6 +134,8 @@
 		AAA5D9552A7CEEB700D2351B /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				AA43E08C2A7E708600CC8B2F /* CameraManager */,
+				AA43E0852A7E6B4E00CC8B2F /* YOLO */,
 				AAA5D9562A7CEEC600D2351B /* CovidPrediction */,
 			);
 			path = Helpers;
@@ -112,6 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				AA6279182A75602E00CF678E /* TextBasedView.swift */,
+				AAA783452A7D4DD300E280AA /* ImageBasedView.swift */,
+				AAA783472A7D4DEB00E280AA /* CameraBasedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,6 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				AAA5D9612A7D39A300D2351B /* TextBasedViewModel.swift */,
+				AAA783492A7D4F1E00E280AA /* ImageBasedViewModel.swift */,
+				AA43E08A2A7E6FC700CC8B2F /* CameraBasedViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -196,10 +250,20 @@
 			files = (
 				AA6279192A75602E00CF678E /* TextBasedView.swift in Sources */,
 				AAA5D9642A7D3A2B00D2351B /* Symptom.swift in Sources */,
+				AAA783482A7D4DEB00E280AA /* CameraBasedView.swift in Sources */,
+				AA43E0922A7FD81C00CC8B2F /* FrameManager.swift in Sources */,
 				AAA5D9622A7D39A300D2351B /* TextBasedViewModel.swift in Sources */,
 				AAA5D9592A7CEF5D00D2351B /* ContentView.swift in Sources */,
+				AA43E0892A7E6B4E00CC8B2F /* YOLOModel.mlmodel in Sources */,
+				AAA783462A7D4DD300E280AA /* ImageBasedView.swift in Sources */,
+				AA43E08B2A7E6FC700CC8B2F /* CameraBasedViewModel.swift in Sources */,
+				AA43E08E2A7E709700CC8B2F /* CameraManager.swift in Sources */,
 				AA6279262A75606B00CF678E /* CovidModel.mlmodel in Sources */,
+				AA43E0952A7FD8B100CC8B2F /* CGImageExtension.swift in Sources */,
 				AA6279282A75609900CF678E /* CovidPrediction.swift in Sources */,
+				AA43E0902A7FD45F00CC8B2F /* CameraError.swift in Sources */,
+				AAA7834A2A7D4F1E00E280AA /* ImageBasedViewModel.swift in Sources */,
+				AA43E0882A7E6B4E00CC8B2F /* YOLOPrediction.swift in Sources */,
 				AA6279172A75602E00CF678E /* LatihanCoreMLApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +393,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -367,6 +432,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

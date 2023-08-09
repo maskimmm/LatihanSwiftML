@@ -15,16 +15,16 @@ struct ContentView: View {
             } label: {
                 Text("ML Text Based")
             }
-//            NavigationLink{
-//                ImageBasedView()
-//            } label: {
-//                Text("ML Image Based")
-//            }
-//            NavigationLink{
-//                CameraBasedView()
-//            } label: {
-//                Text("ML Realtime Video Based")
-//            }
+            NavigationLink{
+                ImageBasedView()
+            } label: {
+                Text("ML Image Based")
+            }
+            NavigationLink{
+                CameraBasedView()
+            } label: {
+                Text("ML Realtime Video Based")
+            }
         }
     }
 }
